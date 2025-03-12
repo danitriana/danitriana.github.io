@@ -40,21 +40,36 @@
   <h2>Formulario de Registro</h2>
   <form id="registroform">
     <div class="mb-3 mt-3">
-      <label for="nombre">Nombre Completo:</label>
-      <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu Nombre Completo" name="nombre" required>
-    </div>
-    <div class="mb-3">
-      <label for="email">Correo Electrónico:</label>
-      <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" name="email" required>
-    </div>
-     <div class="mb-3">
-      <label for="telefono">Celular:</label>
-      <input type="tel" class="form-control" id="telefono" placeholder="Déjame tu número de celular" name="telefono" required>
-    </div>
-    <div class="mb-3">
-      <label for="pwd">Contraseña:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Ingresa una contraseña" name="pswd" required>
-    </div>
+  <label for="nombre">Nombre Completo:</label>
+  <div class="input-group">
+    <span class="input-group-text"><i class="bi bi-person"></i></span>
+    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu Nombre Completo" name="nombre" required>
+  </div>
+</div>
+
+<div class="mb-3">
+  <label for="email">Correo Electrónico:</label>
+  <div class="input-group">
+    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+    <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" name="email" required>
+  </div>
+</div>
+
+<div class="mb-3">
+  <label for="telefono">Celular:</label>
+  <div class="input-group">
+    <span class="input-group-text"><i class="bi bi-phone"></i></span>
+    <input type="tel" class="form-control" id="telefono" placeholder="Déjame tu número de celular" name="telefono" required>
+  </div>
+</div>
+
+<div class="mb-3">
+  <label for="pwd">Contraseña:</label>
+  <div class="input-group">
+    <span class="input-group-text"><i class="bi bi-lock"></i></span>
+    <input type="password" class="form-control" id="pwd" placeholder="Ingresa una contraseña" name="pswd" required>
+  </div>
+</div>
     
     <button type="submit" class="btn btn-primary" id=btn_registrar>Registrarse</button>
   </form>
